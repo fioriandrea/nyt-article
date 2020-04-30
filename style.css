@@ -12,9 +12,18 @@ button {
     border: none;
 }
 
+img {
+    max-width: 100%;
+}
+
 a {
     text-decoration: none;
     color: black;
+}
+
+p {
+    font-size: 1.3rem;
+    line-height: 1.8rem;
 }
 
 .wrapper {
@@ -23,7 +32,7 @@ a {
 }
 
 .wrapper * {
-    background-color: transparent;
+    background-color: #fff;
 }
 
 .top-nav {
@@ -45,7 +54,7 @@ a {
 }
 
 .nav-link {
-        font-size: 14.25px;
+    font-size: 0.7rem;
     font-weight: 700;
 }
 
@@ -59,11 +68,11 @@ a {
 }
 
 .hamburger {
-    background-image: url("./hamburger.png");
+    background-image: url("./imgs/hamburger.png");
 }
 
 .magnifying {
-    background-image: url("./magnifying.png");
+    background-image: url("./imgs/magnifying.png");
 }
 
 .nyt-link-logo {
@@ -71,7 +80,7 @@ a {
     width: 184px;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url("./nytlogo.png");
+    background-image: url("./imgs/nytlogo.png");
 }
 
 .nav-classic-button {
@@ -87,4 +96,89 @@ a {
 
 article {
     padding-top: var(--nav-height);
+    /*width: 43%;*/
+}
+
+article > * {
+    margin: 0 auto;
+    width: 50%;
+}
+
+h1 {
+    font-size: 2.5rem;
+    padding-top: 80px;
+    font-style: italic;
+}
+
+.main-figure {
+    width: 945px;
+    margin-top: 40px;
+}
+
+figcaption {
+    color: #666;
+    padding: 10px 200px 0 0;
+}
+
+.caption-commentor {
+    color: #888;
+}
+
+.author-section {
+    padding: 50px 0;
+}
+
+.author-section div:last-child {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.author {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.author a {
+    text-decoration: underline;
+    text-decoration-color: #ccc;
+}
+
+.date {
+    font-size: 0.8rem;
+}
+
+.icon {
+    --icon-size: 27px;
+    display: inline-block;
+    height: var(--icon-size);
+    width: var(--icon-size);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 15px;
+}
+
+.facebook {
+    background-image: url("./imgs/facebook.png");
+}
+
+.twitter {
+    background-image: url("./imgs/twitter.png");
+}
+
+.mail {
+    background-image: url("./imgs/mail.png");
+}
+
+.share {
+    background-image: url("./imgs/share.png");
+}
+
+.bookmark {
+    background-image: url("./imgs/bookmark.png");
+}
+
+.comments {
+    background-image: url("./imgs/comments.png");
 }
