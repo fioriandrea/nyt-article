@@ -402,3 +402,51 @@ footer {
     font-size: 1.2rem;
     border-top: 0.5px solid #e2e2e2;
 }
+
+.bottom-links {
+    border-top: 2px solid #ccc;
+    padding: 10px 0;
+}
+
+.to-home-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
+
+.goto-homepage {
+    font-size: 0.6rem;
+    color: rgb(86, 123, 149);
+}
+
+.categories-section {
+    display: flex;
+}
+
+.categories-section > * {
+    flex: 1;
+}
+
+.category {
+    display: flex;
+    flex-direction: column;
+}
+
+.category > * {
+    font-size: 0.7rem;
+    margin: 10px 0;
+}
+
+.credits-links {
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.credits-links a {
+    font-size: 0.55rem;
+    color: #666;
+    padding: 0 10px;
+}
