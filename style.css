@@ -406,6 +406,7 @@ footer {
 .bottom-links {
     border-top: 2px solid #ccc;
     padding: 10px 0;
+    border-bottom: 1px solid #000;
 }
 
 .to-home-page {
@@ -435,11 +436,11 @@ footer {
 
 .category > * {
     font-size: 0.7rem;
-    margin: 10px 0;
+    margin: 7px 0;
 }
 
 .credits-links {
-    padding: 10px 0;
+    padding: 20px 0;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -449,4 +450,51 @@ footer {
     font-size: 0.55rem;
     color: #666;
     padding: 0 10px;
+}
+
+.subscribe-category > * {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.subscribe-category > *:last-child {
+    border-bottom: none;
+}
+
+.buy-link {
+    font-size: 0.8rem;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+}
+
+.buy-link:before {
+    content: "";
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 10px;
+}
+
+.home-delivery:before {
+    background-image: url("./imgs/home-delivery.png");
+}  
+
+.digital-subscriptions:before {
+    background-image: url("./imgs/t.png");
+}  
+
+.crossword:before {
+    background-image: url("./imgs/crossword.png");
+}  
+
+.cooking:before {
+    background-image: url("./imgs/cooking.png");
+}  
+
+.small-sub {
+    font-size: 0.6rem;
 }
