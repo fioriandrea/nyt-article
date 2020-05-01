@@ -308,3 +308,13 @@ p.pics-author {
 .secondary-figure {
     padding: 40px 0;
 }
+
+p.article-bottom {
+    font-size: 0.8rem;
+    line-height: 1rem;
+    color: rgb(102, 102, 102);
+}
+
+p.article-bottom a {
+    color: inherit;
+}
