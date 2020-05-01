@@ -277,7 +277,8 @@ article figcaption {
 
 .theory-pics p {
     color: black;
-    font-size: 14px;
+    /* font-size: 14px; */
+    font-size: 0.7rem;
     line-height: 0.8rem;
     font-weight 200;
     margin-top: 145px;
@@ -285,7 +286,8 @@ article figcaption {
 
 .theory-pics span {
     font-weight: 700;
-    font-size: 12px;
+    /* font-size: 12px; */
+    font-size: 0.55rem;
     margin-right: 7px;
 }
 
