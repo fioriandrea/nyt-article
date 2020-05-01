@@ -242,7 +242,7 @@ figcaption {
 .subscribe-section p {
     font-size: 0.8rem;
     font-weight: 700;
-    line-height: 1rem;
+    line-height: 0.05rem;
 }
 
 .subscribe-section p a {
