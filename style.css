@@ -269,7 +269,7 @@ article figcaption {
     margin-top: 10px;
     display: grid;
     grid-template-columns: repeat(4, 220px);
-    grid-column-gap: 20px;
+    grid-column-gap: 22px;
     background-color: transparent;
     padding-bottom: 20px;
     margin-bottom: 20px;
@@ -279,16 +279,16 @@ article figcaption {
     font-family: arial;
     color: black;
     /* font-size: 14px; */
-    font-size: 0.66rem;
+    font-size: 0.7rem;
     line-height: 0.8rem;
     font-weight 300;
     margin-top: 145px;
 }
 
 .theory-pics span {
-    font-weight: 700;
+    font-weight: 900;
     /* font-size: 12px; */
-    font-size: 0.55rem;
+    font-size: 0.6rem;
     margin-right: 7px;
 }
 
