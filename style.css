@@ -21,21 +21,6 @@ a {
     color: black;
 }
 
-p {
-    font-size: 1.3rem;
-    line-height: 1.8rem;
-}
-
-p > a {
-    color: #326891;
-    text-decoration: underline;
-}
-
-h2 {
-    font-weight: 700;
-    font-size: 1.35rem;
-}
-
 .wrapper {
     --nav-height: 45px;
     background-color: #fff;
@@ -106,7 +91,6 @@ h2 {
 
 article {
     padding-top: var(--nav-height);
-    /*width: 43%;*/
 }
 
 article > * {
@@ -114,10 +98,25 @@ article > * {
     width: 50%;
 }
 
-h1 {
+article p {
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+}
+
+article a {
+    color: #326891;
+    text-decoration: underline;
+}
+
+article h1 {
     font-size: 2.5rem;
     padding-top: 80px;
     font-style: italic;
+}
+
+article h2 {
+    font-weight: 700;
+    font-size: 1.35rem;
 }
 
 .main-figure {
@@ -201,7 +200,7 @@ figcaption {
     padding: 25px; 
 }
 
-.subscribe-section span {
+.middle-line {
     display: block;
     height: 1px;
     border-top: 1px solid #ccc;
@@ -210,11 +209,11 @@ figcaption {
     --sub-line-margin: 20px;
 }
 
-.subscribe-section span:first-child {
+.subscribe-section .middle-line:first-child {
     margin-bottom: var(--sub-line-margin);
 }
 
-.subscribe-section span:last-child {
+.subscribe-section .middle-line:last-child {
     margin-top: var(--sub-line-margin);
 }
 
