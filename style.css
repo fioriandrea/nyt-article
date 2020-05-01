@@ -119,9 +119,11 @@ article h2 {
     font-size: 1.35rem;
 }
 
-.main-figure {
+.big-section {
+    --margin-big-figure: 20px;
     width: 945px;
-    margin-top: 40px;
+    margin-top: var(--margin-big-figure);
+    margin-bottom: var(--margin-big-figure);
 }
 
 figcaption {
@@ -134,7 +136,7 @@ figcaption {
 }
 
 .author-section {
-    padding: 50px 0;
+    padding: 20px 0;
 }
 
 .author-section div:last-child {
@@ -226,4 +228,10 @@ figcaption {
 
 .subscribe-section p a {
     text-decoration: none;
+}
+
+.subsection p {
+    color: #666;
+    font-size: 0.9rem;
+    line-height: 1rem;
 }
