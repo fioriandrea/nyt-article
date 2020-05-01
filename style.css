@@ -1,5 +1,5 @@
 body {
-    font-family: georgia,'times new roman', times, serif;
+    font-family: 'times new roman', times, serif;
 }
 
 * {
@@ -276,11 +276,12 @@ article figcaption {
 }
 
 .theory-pics p {
+    font-family: arial;
     color: black;
     /* font-size: 14px; */
-    font-size: 0.7rem;
+    font-size: 0.66rem;
     line-height: 0.8rem;
-    font-weight 200;
+    font-weight 300;
     margin-top: 145px;
 }
 
