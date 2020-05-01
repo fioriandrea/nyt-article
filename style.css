@@ -107,7 +107,7 @@ article > * {
 article p {
     font-size: 1.3rem;
     line-height: 1.8rem;
-    padding: 2px 0;
+    padding: 10px 0;
 }
 
 article a {
@@ -141,13 +141,17 @@ article h3 {
     margin-bottom: var(--margin-big-section);
 }
 
-figcaption {
-    color: #666;
+figure.big-section figcaption {
     padding: 10px 200px 0 0;
 }
 
-.caption-commentor {
+figcaption {
+    color: #666;
+}
+
+.figure-source {
     color: #888;
+    font-size: 0.9rem;
 }
 
 .author-section {
@@ -245,6 +249,10 @@ figcaption {
     text-decoration: none;
 }
 
+.subsection {
+    padding: 30px 0;
+}
+
 .subsection p {
     color: #666;
     font-size: 0.9rem;
@@ -295,4 +303,8 @@ img[src="./imgs/theory.png"] {
 p.pics-author {
     font-size: 0.85rem;
     color: #000;
+}
+
+.secondary-figure {
+    padding: 40px 0;
 }
