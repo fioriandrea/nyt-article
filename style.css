@@ -90,7 +90,7 @@ a {
 }
 
 article {
-    padding-top: var(--nav-height);
+    padding-top: calc(var(--nav-height) + 70px);
 }
 
 article > * {
@@ -101,6 +101,7 @@ article > * {
 article p {
     font-size: 1.3rem;
     line-height: 1.8rem;
+    padding: 2px 0;
 }
 
 article a {
@@ -110,20 +111,28 @@ article a {
 
 article h1 {
     font-size: 2.5rem;
-    padding-top: 80px;
+    font-weight: 700;
     font-style: italic;
+    padding: 10px 0;
 }
 
 article h2 {
     font-weight: 700;
     font-size: 1.35rem;
+    padding: 20px 0 25px 0;
+}
+
+article h3 {
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding: 5px 0;
 }
 
 .big-section {
-    --margin-big-figure: 20px;
+    --margin-big-section: 15px;
     width: 945px;
-    margin-top: var(--margin-big-figure);
-    margin-bottom: var(--margin-big-figure);
+    margin-top: var(--margin-big-section);
+    margin-bottom: var(--margin-big-section);
 }
 
 figcaption {
@@ -234,4 +243,8 @@ figcaption {
     color: #666;
     font-size: 0.9rem;
     line-height: 1rem;
+}
+
+.theory-pics {
+    margin-top: 10px;
 }
