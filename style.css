@@ -309,6 +309,10 @@ p.pics-author {
     padding: 40px 0;
 }
 
+iframe {
+    width: 100%;
+}
+
 p.article-bottom {
     font-size: 0.8rem;
     line-height: 1rem;
