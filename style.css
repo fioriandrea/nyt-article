@@ -269,7 +269,7 @@ article figcaption {
     margin-top: 10px;
     display: grid;
     grid-template-columns: repeat(4, 220px);
-    grid-column-gap: 22px;
+    grid-column-gap: 16px;
     background-color: transparent;
     padding-bottom: 20px;
     margin-bottom: 20px;
